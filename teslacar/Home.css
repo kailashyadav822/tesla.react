@@ -1,0 +1,97 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Open Sens" , sans-serif;;}
+     header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 2rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    
+     }
+      header  nav ul{
+        display: flex;
+        list-style: none;
+    
+      }
+      header nav ul li a{
+        padding: 0 1rem;
+        text-decoration: none;
+    }
+    .content{
+        /* background: url("../../public/tesla images/model-3.jpg"); */
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .heading{
+      padding-top: 6rem;
+      text-align: center;
+    }
+    .heading h1{
+      font-size: 2rem;
+      padding: 0.5rem;
+    }
+    .ctn{
+      padding-bottom: 4rem;
+      text-align: center;
+      text-align: center;
+    }
+    .ctn a{
+      text-decoration: none;
+      padding: 1rem 4rem;
+      margin: 0.5rem;
+      
+    }
+    
+    .ctn a:nth-of-type(1){
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      border-radius:1.5rem ;
+    }
+    .ctn a:nth-of-type(2){
+      background-color: rgba(255,255,255,0.6);
+      color: #000;
+      border-radius: 1.5rem;
+    }
+    .arrow{
+     
+      text-align: center;
+    }
+    .arrow img{
+      width: 50px;
+    }
+    .list{
+       transition: all 0.5s ease-in-out;
+      position: fixed;
+       right: 0px;
+       top: 0;
+       list-style: none;
+       height: 100vh;
+       width: 250px;
+       background-color: #fff;
+       color: #000;
+       padding-top: 5rem;
+    }
+    .list li{
+      padding: 0.8rem;
+    }
+    .list a{
+      text-decoration: none;
+      color: #000;
+      padding: 0.05rem 2rem;
+    }
+    .ico{
+      position: absolute;
+      left: 12rem;
+      top: 2rem;
+    }
