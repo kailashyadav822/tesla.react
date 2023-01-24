@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    
+    
+   
+}
+ul{
+    display: flex;
+    text-align: center;
+    
+  
+    
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+    section{
+      margin-top: 50px;
+      height: 26rem;
+      
+      
+      
+      
+    }
+    .img{
+         background-repeat: no-repeat;
+      background-image: url(../../public/tesla\ images/);
+     
+
+    }
+ .headding{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.pera{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.anchor{
+    display: flex;
+    justify-content: center;
+    margin-top:15rem ;
+    
+}
+ 
+

@@ -10,6 +10,9 @@
     width: 100vw;
     flex-wrap: wrap;
 }
+h1{
+    text-align: center;
+}
 .box{
     width: 22vw;
     height: 270px;

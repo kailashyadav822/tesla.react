@@ -1,24 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Axiosdummy from './Axios/Axiosdummy';
-// import Tesla from './teslacar/Tesla';
-// import Header from './teslacar/Header';
-// import Section from './teslacar/Section';
-// import "./teslacar/Home.css"
-// import Counter from './App';
-import Home from './Axios/Axiosdummy';
-import "./Axios/Axiosdummy.css"
+// import Tmdb from './Axios/Tmdb.';
+// import Todo from './TodoList';
+// import Header from './Tesla/Header';
+// import Axiosdummy from './Axios/Axiosdummy';
+// import Home from './Axios/Axiosdummy';
+// import "./Axios/Axiosdummy.css"
+// import TodoList from './TodoList';
 // import HexCode from './Axios/HexCode';
+// import Tesla from './Tesla/Header'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <Tesla />
+ 
  
 <>
+<Netflix/>
+{/* <Todo/> */}
+{/* <Tmdb/> */}
+{/* <Header/> */}
+{/* <TodoList/> */}
 {/* <HexCode/> */}
-<Axiosdummy />
+{/* <Axiosdummy /> */}
 
-{/* <Header /> */}
+
 
 
 
